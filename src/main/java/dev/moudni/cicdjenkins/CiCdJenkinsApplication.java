@@ -15,6 +15,6 @@ public class CiCdJenkinsApplication {
 
 	@GetMapping("/azul")
 	public String home() {
-		return "Azul fellawen !";
+		return "Azul fellawen ;)";
 	}
 }

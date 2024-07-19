@@ -13,8 +13,8 @@ public class CiCdJenkinsApplication {
 		SpringApplication.run(CiCdJenkinsApplication.class, args);
 	}
 
-	@GetMapping("/hello")
+	@GetMapping("/azul")
 	public String home() {
-		return "Merhbaa Bikouum :)";
+		return "Azul fellawen !";
 	}
 }
